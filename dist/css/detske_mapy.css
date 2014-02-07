@@ -1,0 +1,18 @@
+body {
+padding: 30px;
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 970px;
+  }
+}
+.bily_text {
+  color: #fff;
+}
+.jumbotron h1 {
+  font-size: 43px;
+}
+.navbar {
+  margin-bottom: 30px;
+}
