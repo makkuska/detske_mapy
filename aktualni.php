@@ -8,9 +8,11 @@
   </head>
 
   <body>
+    <div class="first container">
     <div class="container">
       <div class="jumbotron">
-        <h1>Soutěž děstké mapy Barbary Petchenic</h1>
+        <img src="dist/foto/3misto_katD_orez.jpg" alt="Adriana Smékalová" />
+        <h1>Soutěž dětské mapy BARBARY PETCHENIC</h1>
       </div>
 
       <!-- Navigace -->
@@ -59,17 +61,14 @@
             </div>
             <li><a class="visible-xs" href="foto_2013.php">2013</a></li>
             <li><a class="visible-xs" href="foto_2011.php">2011</a></li>
-
           </ul>
-
-
         </div><!--/.nav-collapse -->
       </div>
 
       <!-- HLAVNÍ TĚLO STRÁNKY, ZDE EDITOVAT VEŠKERÝ TEXT -->
-      <div class="container"> 
+      <div class="hlavni container"> 
         <div class="row container">
-          <h2>Aktuální ročník</h2>
+          <h2 class="page-header">Aktuální ročník</h2>
           <p><strong>Výkresy zašlete nejpozději do 21. 12. 2014 na adresu:</strong></p>
           <div class="container">
             <address>Katedra geoinformatiky<br />
@@ -80,17 +79,18 @@
             </address>
           </div> <!-- /container -->
           <p><em>Obálku označte: Dětská mapa Barbary Petchenik</em></p>
-          <p><strong>Vybraná díla budou odeslána do mezinárodního kola soutěže 
-            a budou vystavena v rámci Mezinárodní kartografické konference v Rio de Janeiro, Brazílie!</strong></p>
-
-          <p>V případě jakýchkoliv dotazů se, prosím, obraťte na <a href="mailto:alena.vondrakova@upol.cz">alena.vondrakova@upol.cz</a></p>
+          <p><strong>Vybraná díla budou odeslána do mezinárodního kola soutěže
+            a budou vystavena v rámci Mezinárodní kartografické konference v
+            Rio de Janeiro, Brazílie!</strong></p>
+          <p>V případě jakýchkoliv dotazů se, prosím, obraťte na <a
+            href="mailto:alena.vondrakova@upol.cz">alena.vondrakova@upol.cz</a></p>
         </div> <!-- /container -->
+        <!-- vložená patička: @2014 Katedra geoinformatiky -->
+        <?php include_once("paticka.html") ?>
       </div> <!-- /container -->
 
-      <!-- vložená patička: @2014 Katedra geoinformatiky -->
-      <?php include_once("paticka.html") ?>
-
     </div> <!-- /container -->
+  </div> <!-- /container -->
   </div> <!-- /container -->
 
 </body>

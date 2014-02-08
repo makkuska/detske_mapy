@@ -8,9 +8,11 @@
   </head>
 
   <body>
+    <div class="first container">
     <div class="container">
       <div class="jumbotron">
-        <h1>Soutěž děstké mapy Barbary Petchenic</h1>
+        <img src="dist/foto/3misto_katD_orez.jpg" alt="Adriana Smékalová" />
+        <h1>Soutěž dětské mapy BARBARY PETCHENIC</h1>
       </div>
 
       <!-- Navigace -->
@@ -65,18 +67,10 @@
         </div><!--/.nav-collapse -->
       </div>
 
-      <!-- Main component for a primary marketing message or call to action -->
-      <div class="jumbotron">
-        <h1>Navbar example</h1>
-        <p>This example is a quick exercise to illustrate how the default, static navbar and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
-        <p>
-        <a class="btn btn-lg btn-primary" href="../../components/#navbar">View navbar docs &raquo;</a>
-        </p>
-      </div>
-
       <!-- HLAVNÍ TĚLO STRÁNKY, ZDE EDITOVAT VEŠKERÝ TEXT -->
-      <div class="container"> 
+      <div class="hlavni container"> 
         <div class="row container">
+          <h2 class="page-header">Aktuální ročník</h2>
           <p>Kartografická společnost České republiky  
           pořádá ve spolupráci  
           s Katedrou geoinformatiky Univerzity Palackého v Olomouci  
@@ -105,10 +99,10 @@
           roku 1999. Mezinárodního kola se vždy účastní 6 až 9 dětských
           prací.</p>
         </div> <!-- /container -->
-      </div> <!-- /container -->
-
       <!-- vložená patička: @2014 Katedra geoinformatiky -->
       <?php include_once("paticka.html") ?>
+      </div> <!-- /container -->
+
 
     </div> <!-- /container -->
   </div> <!-- /container -->
