@@ -40,9 +40,7 @@
 
             <!-- speciální vzhled navigace pro mobilní telefony -->
             <li><a class="visible-xs" href="kontakt.php">Kontakt a přihláška</a></li>
-            <div class="container visible-xs">
-              <li class="visible-xs page-header bily_text">Historie</li>
-            </div>
+            <li class="visible-xs page-header odsazeni bily_text">Historie</li>
             <li><a class="visible-xs" href="hist_2013.php">2013</a></li>
             <li class="active"><a class="visible-xs" href="hist_2011.php">2011</a></li>
             <li><a class="visible-xs" href="hist_2009.php">Do roku 2009</a></li>
@@ -54,10 +52,18 @@
       <div class="hlavni container"> 
         <div class="row container">
           <h2 class="page-header">Historie 2011</h2>
+          <p><strong>Do mezinárodního kola byly vybrány následující práce:</strong></p>
+          <ul>
+            <li>Lucie Nováková (15 let, ZŠ Chabařovice) - Connected World</li> 
+            <li>Viktorie Karla Wojnarová (6 let, Bystřice pod Hostýnem) - Globalized World deals With Natural Disasters</li>  
+            <li>Josef Novotný (12 let, ZŠ Chabařovice) - Globe In Waste</li>  
+            <li>Marcela Kozlíková (15 let, ZŠ Chabařovice) - Journey Around the World</li>
+            <li>Viktorie Karla Wojnarová (8 roků, Bystřice pod Hostýnem) – Playful World Map</li>  
+            <li>Barbora Mazánková (12 let, ZŠ Chabařovice) - We Are One World</li> 
+          </ul>
         </div> <!-- /container -->
         <!-- vložená patička: @2014 Katedra geoinformatiky -->
         <?php include_once("paticka.html") ?>
-      </div> <!-- /container -->
 
     </div> <!-- /container -->
   </div> <!-- /container -->

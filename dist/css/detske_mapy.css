@@ -3,7 +3,9 @@ body {
   padding-bottom: 20px;
   background-color: #f4eafc/*#ead8f8 /*#dfc8f0/*#d9b9f0/* #C49CE0; */
 }
-
+.odsazeni {
+padding-left: 15px;
+}
 .hlavni {
   background-color: #ffffff; 
   border:1px solid #dfc8f0;
