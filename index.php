@@ -10,11 +10,8 @@
   <body>
     <div class="first container">
     <div class="container">
-      <div class="jumbotron">
-        <img src="dist/foto/3misto_katD_orez.jpg" alt="Adriana Smékalová" />
-        <h1>Soutěž dětské mapy BARBARY PETCHENIC</h1>
-      </div>
-
+    <?php include_once("header.html") ?>
+      
       <!-- Navigace -->
       <div class="navbar navbar-inverse">
         <div class="navbar-header">
@@ -39,13 +36,6 @@
               <li><a href="hist_2009.php">Do roku 2009</a></li>
             </ul>
             </li>
-            <li class="dropdown visible-lg visible-md visible-sm">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Fotogalerie <b class="caret"></b></a>
-            <ul class="dropdown-menu">
-              <li><a href="foto_2013.php">2013</a></li>
-              <li><a href="foto_2011.php">2011</a></li>
-            </ul>
-            </li>
             <li><a class="visible-lg visible-md visible-sm" href="kontakt.php">Kontakt a přihláška</a></li>
 
             <!-- speciální vzhled navigace pro mobilní telefony -->
@@ -56,11 +46,6 @@
             <li><a class="visible-xs" href="hist_2013.php">2013</a></li>
             <li><a class="visible-xs" href="hist_2011.php">2011</a></li>
             <li><a class="visible-xs" href="hist_2009.php">Do roku 2009</a></li>
-            <div class="container visible-xs">
-              <li class="visible-xs page-header bily_text">Fotogalerie</li>
-            </div>
-            <li><a class="visible-xs" href="foto_2013.php">2013</a></li>
-            <li><a class="visible-xs" href="foto_2011.php">2011</a></li>
 
           </ul>
 
@@ -70,15 +55,20 @@
       <!-- HLAVNÍ TĚLO STRÁNKY, ZDE EDITOVAT VEŠKERÝ TEXT -->
       <div class="hlavni container"> 
         <div class="row container">
-          <h2 class="page-header">Aktuální ročník</h2>
-          <p>Kartografická společnost České republiky  
-          pořádá ve spolupráci  
-          s Katedrou geoinformatiky Univerzity Palackého v Olomouci  
-          národní kolo umělecko‐kartografické soutěže  
-          Dětská mapa světa,  
-          tentokrát se zaměřením na téma 
-          Moje místo v dnešním světě 
-          věkové kategorie: 4 – 9 let, 9 – 12 roků, 13 – 16 roků</p>  
+          <h2 class="page-header">O soutěži</h2>
+          <p>Národní kolo umělecko‐kartografické soutěže Dětská mapa světa
+          pořádá Kartografická společnost České republiky pořádá ve spolupráci
+          s Katedrou geoinformatiky Univerzity Palackého v Olomouci, tentokrát
+          se zaměřením na téma <strong>Moje místo v dnešním světě</strong>.
+          </p>
+          <p>
+          Hodnocené budou práce ve třech <strong>věkových kategoriích</strong>: 
+          <ul>
+            <li>4 – 9 let</li>
+            <li>9 – 12 roků</li>
+            <li>13 – 16 roků</li>
+          </ul>
+          </p>
           <p>Cena Barbary Petchenik byla založena Mezinárodní
           kartografickou asociací ICA v roce 1993 jako památka na Barbaru
           Petchenik, bývalou viceprezidentku ICA a kartografku, která se po

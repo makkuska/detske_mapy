@@ -10,10 +10,7 @@
   <body>
     <div class="first container">
     <div class="container">
-      <div class="jumbotron">
-        <img src="dist/foto/3misto_katD_orez.jpg" alt="Adriana Smékalová" />
-        <h1>Soutěž dětské mapy BARBARY PETCHENIC</h1>
-      </div>
+    <?php include_once("header.html") ?>
 
       <!-- Navigace -->
       <div class="navbar navbar-inverse">
@@ -39,13 +36,6 @@
               <li><a href="hist_2009.php">Do roku 2009</a></li>
             </ul>
             </li>
-            <li class="dropdown visible-lg visible-md visible-sm">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Fotogalerie <b class="caret"></b></a>
-            <ul class="dropdown-menu">
-              <li><a href="foto_2013.php">2013</a></li>
-              <li><a href="foto_2011.php">2011</a></li>
-            </ul>
-            </li>
             <li><a class="visible-lg visible-md visible-sm" href="kontakt.php">Kontakt a přihláška</a></li>
 
             <!-- speciální vzhled navigace pro mobilní telefony -->
@@ -56,11 +46,6 @@
             <li><a class="visible-xs" href="hist_2013.php">2013</a></li>
             <li><a class="visible-xs" href="hist_2011.php">2011</a></li>
             <li><a class="visible-xs" href="hist_2009.php">Do roku 2009</a></li>
-            <div class="container visible-xs">
-              <li class="visible-xs page-header bily_text">Fotogalerie</li>
-            </div>
-            <li><a class="visible-xs" href="foto_2013.php">2013</a></li>
-            <li><a class="visible-xs" href="foto_2011.php">2011</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -69,11 +54,31 @@
       <div class="hlavni container"> 
         <div class="row container">
           <h2 class="page-header">Aktuální ročník</h2>
+          <p>Národní kolo umělecko‐kartografické soutěže Dětská mapa světa
+          pořádá Kartografická společnost České republiky pořádá ve spolupráci
+          s Katedrou geoinformatiky Univerzity Palackého v Olomouci, tentokrát
+          se zaměřením na téma <strong>Moje místo v dnešním světě</strong>.
+          </p>
+          <p>
+          Hodnocené budou práce ve třech <strong>věkových kategoriích</strong>: 
+          <ul>
+            <li>4 – 9 let</li>
+            <li>9 – 12 roků</li>
+            <li>13 – 16 roků</li>
+          </ul>
+          </p>
+          <p><strong>Hodnocená kritéria:</strong>
+          <ul>
+            <li><strong>srozumitelnost tématiky</strong> – hlavní poselství obrázku </li>
+            <li><strong>kartografický obsah</strong> – propojení prvků mapy s tématem soutěže  </li>
+            (kontinenty, oceány, mapy, apod. – přiměřeně věku) 
+            <li><strong>kvalita provedení a celková estetická hodnota</strong></li>
+          </ul>
+          </p>
           <p><strong>Výkresy zašlete nejpozději do 21. 12. 2014 na adresu:</strong></p>
           <div class="container">
             <address>Katedra geoinformatiky<br />
               Univerzita Palackého v Olomouci<br />
-              soutěž Mapa roku<br />
               17. listopadu 50<br />
               771 46 Olomouc
             </address>

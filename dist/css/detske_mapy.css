@@ -13,6 +13,9 @@ body {
   color: #fff;
 }
 
+.fotky p{
+text-align: center; 
+}
 .first {
   padding: 0px;
 }
@@ -55,6 +58,14 @@ img {
   padding-right: 0px;
   padding-left: 0px;
   border:1px solid #dfc8f0;
+}
+a {
+    color: #6A3392;
+    text-decoration: none;
+}
+a:hover, a:focus {
+    color: #3E115F;
+    text-decoration:underline;
 }
 .navbar-collapse, .navbar-header{
   background-color: #6A3392/* #4b0082;*/ 
